@@ -1,0 +1,5 @@
+row_one = input().split('|')
+row_two = input().split('|')
+word_one = "".join([row_one[0],row_two[0]])
+word_two = "".join([row_one[1],row_two[1]])
+print(f'{word_one} {word_two}')
